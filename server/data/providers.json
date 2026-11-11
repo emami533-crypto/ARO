@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "providers": [
+    {
+      "id": "1xai",
+      "name": "1xAI",
+      "type": "openai-compatible",
+      "baseUrl": "https://1xai.ir/v1",
+      "apiKeyEnvVars": [
+        "ONEXAI_API_KEY",
+        "X1AI_API_KEY"
+      ],
+      "enabled": false,
+      "order": 0
+    },
+    {
+      "id": "groq",
+      "name": "groq",
+      "type": "openai-compatible",
+      "baseUrl": "https://groq.com",
+      "enabled": false,
+      "order": 0
+    },
+    {
+      "id": "openai",
+      "name": "openai",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.openai.com/v1",
+      "enabled": false,
+      "order": 0
+    },
+    {
+      "id": "avalai",
+      "name": "Aval Ai",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.avalai.ir/v1",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "hormouz",
+      "name": "Hormouz",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.hormouz.net/v1",
+      "enabled": false,
+      "order": 0,
+      "apiKeyEnvVars": [
+        "HORMOUZ_API_KEY"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "openai-compatible",
+      "baseUrl": "https://opencode.ai/inference/openai/v1",
+      "enabled": true,
+      "order": 0,
+      "apiKeyEnvVars": [
+        "OPENCODE_API_KEY"
+      ]
+    },
+    {
+      "id": "llm7",
+      "name": "LLM7",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.llm7.io/v1",
+      "enabled": true,
+      "order": 0,
+      "apiKeyEnvVars": [
+        "LLM7_API_KEY"
+      ]
+    },
+    {
+      "id": "aionlabs",
+      "name": "aionlabs",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.aionlabs.ai/v1",
+      "enabled": true,
+      "order": 0,
+      "apiKeyEnvVars": [
+        "AIONLABS_API_KEY"
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "type": "openai-compatible",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "apiKeyEnvVars": [
+        "OPENROUTER_API_KEY"
+      ],
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "xkiro",
+      "name": "Xkiro",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.xkiro.com/v1",
+      "apiKeyEnvVars": [
+        "XKIRO_API_KEY"
+      ],
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.mistral.ai/v1",
+      "apiKeyEnvVars": [
+        "MISTRAL_API_KEY"
+      ],
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "freebuff",
+      "name": "Freebuff",
+      "type": "openai-compatible",
+      "baseUrl": "https://freebuff.llm.pm/v1",
+      "apiKeyEnvVars": [
+        "FREEBUFF_TOKEN"
+      ],
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "sambanova",
+      "name": "SambaNova",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.sambanova.ai/v1",
+      "apiKeyEnvVars": [
+        "SAMBANOVA_API_KEY"
+      ],
+      "enabled": false,
+      "order": 6
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare Workers AI",
+      "type": "openai-compatible",
+      "baseUrl": "https://api.cloudflare.com/client/v4/accounts/{{CLOUDFLARE_ACCOUNT_ID}}/ai/v1",
+      "apiKeyEnvVars": [
+        "CLOUDFLARE_API_KEY"
+      ],
+      "enabled": false,
+      "order": 7
+    }
+  ]
+}

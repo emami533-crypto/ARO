@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "defaultStrategy": "auto-balanced",
+  "maxAttempts": 5,
+  "weights": {
+    "quality": 0.4,
+    "cost": 0.3,
+    "latency": 0.3
+  }
+}

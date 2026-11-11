@@ -1,0 +1,44 @@
+HTTP/1.1 200 OK
+Vary: Origin
+RateLimit-Limit: 90
+RateLimit-Remaining: 87
+RateLimit-Reset: 1794130761
+X-Router-Strategy: manual
+X-Router-Attempts: 1
+Content-Type: text/event-stream; charset=utf-8
+Cache-Control: no-cache, no-transform
+Connection: keep-alive
+X-Accel-Buffering: no
+Date: Sun, 08 Nov 2026 09:38:57 GMT
+Transfer-Encoding: chunked
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"The","reasoning_details":[{"type":"reasoning.text","text":"The","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":" user said \"سلام\" which is Arabic","reasoning_details":[{"type":"reasoning.text","text":" user said \"سلام\" which is Arabic","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"/G","reasoning_details":[{"type":"reasoning.text","text":"/G","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"ulf","reasoning_details":[{"type":"reasoning.text","text":"ulf","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":" dialect","reasoning_details":[{"type":"reasoning.text","text":" dialect","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":" for \"Hello\" or \"Pe","reasoning_details":[{"type":"reasoning.text","text":" for \"Hello\" or \"Pe","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":"ace\". I should respond in a friendly manner in","reasoning_details":[{"type":"reasoning.text","text":"ace\". I should respond in a friendly manner in","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":" Arabic.","reasoning_details":[{"type":"reasoning.text","text":" Arabic.","format":"unknown","index":0}]},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"مر","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"حباً! كيف","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":" يمكنني مساعدتك اليوم؟ ","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"😊","role":"assistant"},"finish_reason":null,"native_finish_reason":null}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","choices":[{"index":0,"delta":{"content":"","role":"assistant","reasoning":null},"finish_reason":"stop","native_finish_reason":"stop"}]}
+
+data: {"id":"gen-1794130736-ATtjXhix4XlH2c6UdSSY","object":"chat.completion.chunk","created":1794130736,"model":"liquid/lfm-2.5-2.6b:free","provider":"Liquid","service_tier":null,"choices":[{"index":0,"delta":{"content":"","role":"assistant"},"finish_reason":"stop","native_finish_reason":"stop"}],"usage":{"prompt_tokens":11,"completion_tokens":46,"total_tokens":57,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":3,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":34,"image_tokens":0,"audio_tokens":0}}}
+
+data: [DONE]
+

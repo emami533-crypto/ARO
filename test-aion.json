@@ -1,0 +1,10 @@
+{
+  "provider": "aionlabs",
+  "model": "aion-labs/aion-3.0-mini",
+  "messages": [
+    {"role": "user", "content": [
+      {"type": "text", "text": "What animal?"},
+      {"type": "image_url", "image_url": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/320px-Cat03.jpg"}}
+    ]}
+  ]
+}

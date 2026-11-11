@@ -1,0 +1,15 @@
+{
+  "provider": "",
+  "model": "",
+  "autoMode": true,
+  "strategy": "auto-vision",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {"type": "text", "text": "What animal is in this image?"},
+        {"type": "image_url", "image_url": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/320px-Cat03.jpg"}}
+      ]
+    }
+  ]
+}

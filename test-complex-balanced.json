@@ -1,0 +1,1 @@
+{"provider":"openrouter","model":"openrouter/free","autoMode":true,"strategy":"auto-balanced","messages":[{"role":"user","content":"یک معماری کامل برای سیستم پرداخت با PostgreSQL طراحی کن که security-critical باشه و در برابر SQL injection مقاوم باشد"}]}
